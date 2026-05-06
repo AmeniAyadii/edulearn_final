@@ -1,0 +1,34 @@
+{
+  "settings": "Settings",
+  "profile": "Profile",
+  "history": "History",
+  "preferences": "Preferences",
+  "data": "Data",
+  "support": "Support",
+
+  "notifications": "Notifications",
+  "sound_effects": "Sound effects",
+  "background_music": "Background music",
+  "vibration": "Vibration",
+  "dark_mode": "Dark mode",
+  "language": "Language",
+  "cache": "Cache",
+  "privacy": "Privacy",
+  "help": "Help",
+  "contact": "Contact us",
+
+  "receive_notifications": "Receive alerts and reminders",
+  "enable_sounds": "Enable app sounds",
+  "enable_music": "Enable background music",
+  "haptic_feedback": "Haptic feedback",
+  "adaptive_interface": "Adaptive interface",
+  "manage_cache": "Manage temporary data",
+  "manage_data": "Manage your personal data",
+  "user_guide": "User guide",
+
+  "edit_profile": "Edit profile",
+  "activity_history": "Activity history",
+  "view_history": "View scan and game history",
+
+  "version": "Version"
+}

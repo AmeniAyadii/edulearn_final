@@ -1,0 +1,207 @@
+name: edulearn_final
+description: "EduLearn - Application éducative pour enfants avec IA"
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+
+dependencies:
+  easy_localization: ^3.0.0
+
+  flutter:
+    sdk: flutter
+  
+
+  flutter_localizations:  # ← AJOUTER
+    sdk: flutter
+  #intl: ^0.18.1           # ← AJOUTER
+
+  package_info_plus: ^8.0.0
+
+
+
+  # === UI & DESIGN ===
+  google_fonts: ^8.0.2
+  flutter_svg: ^2.0.9
+  lottie: ^3.0.0
+  shimmer: ^3.0.0
+  animations: ^2.0.0
+  flutter_staggered_animations: ^1.1.1
+
+  # === FIREBASE (TOUS EN v3.x - COMPATIBLES ENTRE EUX) ===
+  
+
+  # === ML KIT ===
+  google_mlkit_text_recognition: ^0.15.1
+  google_mlkit_language_id: ^0.13.1
+  google_mlkit_translation: ^0.13.0
+  google_mlkit_image_labeling: ^0.14.2
+  #google_mlkit_smart_reply: ^0.13.0
+  google_mlkit_smart_reply: ^0.13.1
+
+  google_mlkit_face_detection: ^0.11.1
+  #google_mlkit_object_detection: ^0.16.0
+
+  #google_mlkit_object_detection: ^0.8.0
+
+  google_generative_ai: ^0.4.0  # À ajouter
+
+  
+  
+
+
+  # Firebase
+  #firebase_core: ^3.8.0
+  #firebase_auth: ^5.3.0
+  #cloud_firestore: ^5.5.0
+  #google_sign_in: ^6.2.1
+
+  
+  #firebase_storage: ^12.3.0
+
+  cached_network_image: ^3.3.1   # ← AJOUTEZ CETTE LIGNE
+
+  
+
+
+
+  google_mlkit_document_scanner: ^0.4.0
+
+  google_mlkit_entity_extraction: ^0.13.1  # ← Version corrigée
+
+  google_mlkit_pose_detection: ^0.12.1
+
+  
+
+
+  
+  flutter_vibrate: ^1.3.0
+
+  speech_to_text: ^7.0.0
+
+  share_plus: ^10.1.0
+
+  # Pour l'export PDF
+  pdf: ^3.10.7
+  printing: ^5.11.1
+
+  
+
+  # === CAMERA & MEDIA ===
+  camera: ^0.12.0+1
+  image_picker: ^1.0.0
+  image_cropper: ^12.2.1
+  path_provider: ^2.1.0
+
+  # === AUDIO & TTS ===
+  flutter_tts: ^4.2.5
+  audioplayers: ^6.0.0
+  permission_handler: ^12.0.1
+
+  # === NOTIFICATIONS ===
+  #flutter_local_notifications: ^21.0.0
+  
+  # Notifications locales - VERSIONS COMPATIBLES
+  #firebase_messaging: ^16.2.0
+  timezone: ^0.9.0  # Version compatible
+  #notification_permissions: ^0.6.1
+
+  fl_chart: ^0.68.0  # Ajoutez cette ligne
+
+  #firebase_messaging: ^16.2.0  # ✅ Version stable
+
+  # Notifications locales
+  #flutter_local_notifications: ^16.3.0
+
+  awesome_notifications: ^0.11.0
+
+  android_alarm_manager_plus: ^4.0.3  # Pour les notifications planifiées
+
+ 
+
+  # Pour les tâches planifiées
+  #workmanager: ^0.5.1
+  
+  
+
+  # === STOCKAGE LOCAL ===
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  shared_preferences: ^2.2.0
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  # === STATE MANAGEMENT ===
+  provider: ^6.0.5
+  equatable: ^2.0.5
+
+  # === UTILS ===
+  intl: ^0.20.2
+  connectivity_plus: ^7.1.1
+  url_launcher: ^6.2.1
+  #share_plus: ^13.1.0
+  vibration: ^3.1.8
+  http: ^1.6.0
+  firebase_core: ^4.7.0
+  firebase_auth: ^6.4.0
+  google_sign_in: ^7.2.0
+  cloud_firestore: ^6.3.0
+
+  firebase_database: ^12.3.0  # ← AJOUTEZ CETTE LIGNE
+
+  # Pour ce jeu
+  confetti: ^0.7.0
+  firebase_storage: ^13.3.0
+  google_mlkit_object_detection: ^0.15.1
+
+
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  build_runner: ^2.4.7
+  hive_generator: ^2.0.0
+
+  flutter_launcher_icons: ^0.13.1   # ⭐ AJOUTEZ CETTE LIGNE
+
+ 
+
+# ✅ RÉSOLUTION DU CONFLIT google_mlkit_commons
+dependency_overrides:
+  google_mlkit_commons: ^0.11.0
+
+flutter:
+  uses-material-design: true
+
+  generate: true  # ← AJOUTER CETTE LIGNE
+
+  assets:
+    - assets/sounds/click.mp3
+    - assets/sounds/success.mp3
+    - assets/sounds/error.mp3
+    - assets/sounds/notification.mp3
+    - assets/sounds/level_up.mp3
+    - assets/sounds/welcome.mp3
+    - assets/sounds/background.mp3
+    - assets/music/background.mp3
+    - assets/sounds/scan.mp3
+    - assets/sounds/info.mp3
+    - assets/animations/camera.json
+    - assets/animations/scanning.json
+    - assets/animations/success_check.json
+    - assets/translations/
+    - assets/.env  # Ajoutez cette ligne
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/icon.png"
+  min_sdk_android: 21
+  remove_alpha_ios: true
+  adaptive_icon_background: "#4A90E2"
+  adaptive_icon_foreground: "assets/icon/icon.png"
+
+  

@@ -1,0 +1,34 @@
+{
+  "settings": "الإعدادات",
+  "profile": "الملف الشخصي",
+  "history": "السجل",
+  "preferences": "التفضيلات",
+  "data": "البيانات",
+  "support": "الدعم",
+
+  "notifications": "الإشعارات",
+  "sound_effects": "المؤثرات الصوتية",
+  "background_music": "الموسيقى الخلفية",
+  "vibration": "الاهتزاز",
+  "dark_mode": "الوضع الليلي",
+  "language": "اللغة",
+  "cache": "الذاكرة المؤقتة",
+  "privacy": "الخصوصية",
+  "help": "المساعدة",
+  "contact": "اتصل بنا",
+
+  "receive_notifications": "تلقي التنبيهات والتذكيرات",
+  "enable_sounds": "تفعيل أصوات التطبيق",
+  "enable_music": "تفعيل الموسيقى الخلفية",
+  "haptic_feedback": "الاهتزاز عند اللمس",
+  "adaptive_interface": "واجهة متكيفة",
+  "manage_cache": "إدارة البيانات المؤقتة",
+  "manage_data": "إدارة بياناتك الشخصية",
+  "user_guide": "دليل الاستخدام",
+
+  "edit_profile": "تعديل الملف الشخصي",
+  "activity_history": "سجل الأنشطة",
+  "view_history": "عرض سجل العمليات والألعاب",
+
+  "version": "الإصدار"
+}

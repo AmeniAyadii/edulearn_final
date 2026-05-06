@@ -1,0 +1,34 @@
+{
+  "settings": "Paramètres",
+  "profile": "Profil",
+  "history": "Historique",
+  "preferences": "Préférences",
+  "data": "Données",
+  "support": "Support",
+
+  "notifications": "Notifications",
+  "sound_effects": "Effets sonores",
+  "background_music": "Musique de fond",
+  "vibration": "Vibration",
+  "dark_mode": "Mode sombre",
+  "language": "Langue",
+  "cache": "Cache",
+  "privacy": "Confidentialité",
+  "help": "Aide",
+  "contact": "Nous contacter",
+
+  "receive_notifications": "Recevoir des alertes et rappels",
+  "enable_sounds": "Activer les sons dans l'application",
+  "enable_music": "Activer la musique d'ambiance",
+  "haptic_feedback": "Retour haptique au toucher",
+  "adaptive_interface": "Interface adaptative",
+  "manage_cache": "Gérer les données temporaires",
+  "manage_data": "Gérer vos données personnelles",
+  "user_guide": "Guide d'utilisation",
+
+  "edit_profile": "Modifier votre profil",
+  "activity_history": "Historique des activités",
+  "view_history": "Consulter l'historique des scans et jeux",
+
+  "version": "Version"
+}
