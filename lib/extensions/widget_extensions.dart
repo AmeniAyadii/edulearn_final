@@ -11,8 +11,6 @@ extension WidgetSoundExtension on Widget {
   }) {
     return GestureDetector(
       onTap: () async {
-
-        
         final soundService = SoundService();
         switch (soundType) {
           case SoundType.click:
